@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    
+    font-family: Ubuntu,sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-header{
+    background-image: url(assets/logo_6-removebg-preview.png);
+    background-size: cover;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.login-form form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 8px;
+    gap: 12px;
+    width: 300px;
+    height: 360px;
+    position: relative;
+    left: 480px;
+    top: 40px;
+    padding: 20px 26px 
+
+}
+
+
+.login-form form h1{
+    color: #111111;
+    position: relative;
+    top: -40px;
+}
+
+
+.login-form form h5{
+    position: relative;
+    top: -40px;
+}
+
+
+
+.login-form form .email{
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: -45px;
+    /* border-color: #A6A6A6; */
+    /* border-radius: 2px */
+}
+
+.login-form form .butt{
+    width: 308px;
+    height: 30px;
+    position: relative;
+    top: -45px;
+    border-radius: 8px;
+    background-color: #FFD814;
+    border: none;
+}
+
+
+.login-form form .butt:hover{
+    cursor: pointer;
+    background-color: #febd69;
+}
+
+
+
+
+.size{
+    font-size: 12px;
+}
+
+
+
+
+.login-form form p{
+    position: relative;
+    top: -40px;
+    /* border-color: #A6A6A6; */
+    /* border-radius: 2px */
+}
+
+
+.login-form form ul li a{
+    position: relative;
+    top: -40px;
+}
+
+
+.login-form form ul li {
+    
+    list-style: none;
+}
+
+
+
+.login-form form h6{
+    font-size: 12px;
+}
+
+.bs{
+    font-size: 12px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+/* last */
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.new{
+    color: #767676;
+}
+
+
+
+
+
+
